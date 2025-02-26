@@ -1,0 +1,40 @@
+$begin 'ConnectionParameters'
+	DesktopProcessID=19940
+	DesktopProcessPath='C:\\Program Files\\AnsysEM\\Ansys Student\\v242\\Win64\\ansysedtsv.exe'
+	LaunchedByWB=false
+	GRPCPort=50051
+	$begin 'DesktopStubBlock'
+		$begin 'CommDetails'
+			TransportType=1
+			IPAddress='192.168.0.164'
+			ListenPort='49876'
+		$end 'CommDetails'
+		$begin 'Marshall'
+			InstanceID=503
+			ProcID=19940
+			InterfaceID=1
+			FactoryIntID='DesktopInterfaceForWBProxyStubFactory'
+		$end 'Marshall'
+	$end 'DesktopStubBlock'
+	$begin 'DesktopBackgroundObjStubBlock'
+		$begin 'CommDetails'
+			TransportType=1
+			IPAddress='192.168.0.164'
+			ListenPort='49876'
+		$end 'CommDetails'
+		$begin 'Marshall'
+			InstanceID=505
+			ProcID=19940
+			InterfaceID=2
+			FactoryIntID='DesktopInterfaceForWBProxyStubFactory'
+		$end 'Marshall'
+	$end 'DesktopBackgroundObjStubBlock'
+	$begin 'WebClientBlock'
+		Url='http://Soumajit:53698/?server=ws://Soumajit:53186&token=86ba9e90-6be0-eb21-c2dc-bf77fa16987c&startTab=monitor/graph'
+		SecureUrl='https://Soumajit:53954/?server=wss://Soumajit:53442&token=86ba9e90-6be0-eb21-c2dc-bf77fa16987c&startTab=monitor/graph'
+		WsHost='Soumajit'
+		WsPort=53186
+		WssPort=53442
+		Token='86ba9e90-6be0-eb21-c2dc-bf77fa16987c'
+	$end 'WebClientBlock'
+$end 'ConnectionParameters'
